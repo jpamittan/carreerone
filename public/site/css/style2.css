@@ -1,0 +1,759 @@
+.ins {
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    padding-top: 115px;
+    background-color: #dedede;
+	
+}
+.ins .head {
+	padding: 0px;
+}
+/* Navbar css starts */
+.ins .insNav{
+	    background-color: #fff;
+    border-color: #fff;
+    min-height: 80px;
+    margin-bottom: 0;
+    border: 0;
+}
+.ins .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+	margin: 30px 0px;
+}
+.ins .navbar-default .navbar-nav > .active .activebottom {
+	position: absolute;
+    background: #bc0071;
+    width: 100%;
+    height: 14px;
+    bottom: -2px;
+}
+.ins .nav > li:nth-child(2) .activebottom{
+	position: absolute;
+    background: #b3dc74;
+    width: 100%;
+    height: 4px;
+    bottom: -2px;
+}
+
+.ins .nav > li:nth-child(3) .activebottom{
+	position: absolute;
+    background: #3ea1e2;
+    width: 100%;
+    height: 4px;
+    bottom: -2px;
+}
+.ins .nav > li:nth-child(4) .activebottom{
+	position: absolute;
+    background: #ff776b;
+    width: 100%;
+    height: 4px;
+    bottom: -2px;
+}
+.ins .navbar-brand { 
+	margin-right: 65px;
+}
+.ins .navbar-default .navbar-nav.navbar-right > li > a {
+    text-align: right; 
+}
+.ins .navimg {
+	position: relative;
+    top: -3px;
+}
+.ins .navone_img {
+	background: url("img/dashboard.jpg") no-repeat
+}
+.ins .navbar-default .navbar-nav > .active > a, .ins .navbar-default .navbar-nav > .active > a:hover, .ins .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #fff;
+    color: #074368;
+	position: relative;
+    
+}
+.ins .navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    width: 120px;
+    padding: 0;
+    text-align: center;
+}
+/* navbar css ends */
+/* index page css starts */
+.ins .jobmatchYout .count_matches {
+	margin: 20px 0;
+}
+.ins .sortby {
+	display: inline-block;
+}
+.ins .jobmatchYout {
+	background-color: #fff;
+}
+.ins .jobmatchYout .jobheding{
+	color: #5e0058;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.ins .sort {
+	border-bottom: 1px solid #e1e1e1;
+}
+.ins .jobmatchYout .jobDetpo{
+	color: #5e5e5e; 
+}
+.ins .jobmatchYout .jobDetpo h5{
+	margin: 0px;
+    margin-bottom: 10px; 
+}
+.ins .jobmatchYout .jobbSection {
+	padding: 25px 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.ins .jobPagination .pagination > li > a {
+	margin-right: 5px;
+}
+.ins .jobPagination .pagination > li:first-child > a, .ins .jobPagination .pagination > li:first-child > span {
+    margin-left: 0;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.ins .jobPagination .pagination > li:last-child > a, .ins .jobPagination .pagination > li:last-child > span {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.ins .jobPagination .pagination > li > a:hover, .ins .jobPagination .pagination > li > span:hover, .ins .jobPagination .pagination > li > a:focus, .ins .jobPagination .pagination > li > span:focus {
+    z-index: 2;
+    color: #754a9a;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+}
+.ins .jobPagination .pagination > li > a, .ins .jobPagination .pagination > li > span{
+	color: #5e5e5e;
+}
+.ins .jobmatchYout .new{
+	color: #e83612; 
+}
+.ins .mostRelavant {
+	margin-top: 15px;
+	color: #404042;
+}
+.ins .mrBtn {
+	padding-right: 30px;
+    border-radius: 0;
+}
+.ins .applySection {
+	padding-top: 22px;
+}
+.ins .appliedJobs {
+	margin-bottom: 20px;
+}
+.ins .applyhistoryTable .table > thead > tr > th, .ins .applyhistoryTable .table > tbody > tr > th, .ins .applyhistoryTable .table > tfoot > tr > th, .ins .applyhistoryTable .table > thead > tr > td, .ins .applyhistoryTable .table > tbody > tr > td, .ins .applyhistoryTable .table > tfoot > tr > td {
+	padding-left: 15px;
+	
+}
+.ins .table > thead > tr > th {
+	border-bottom: 0px solid #dddddd;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border: 0px solid #dddddd;
+}
+.ins .jhe td {
+	padding-top: 20px!important;
+	padding-bottom: 2px!important;
+}
+.ins .jobheai {
+	font-size: 18px;
+	color: #5e0058;
+}
+.ins tbody tr:nth-child(2) td{
+	padding: 0px;
+	line-height: 1.5;
+}
+.ins tbody tr:nth-child(3) td{
+	padding: 0px;
+	line-height: 1.5;
+}
+.ins tbody tr:nth-child(4) td{
+	padding: 0px;
+	
+	
+	line-height: 1.5;
+}
+.ins table {
+	    margin-bottom: 0;
+}
+.ins tbody tr:nth-child(n) td{
+	line-height: 1.5;
+	padding: 0px;
+}
+.ins tbody tr:nth-child(4n+4) td{
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 15px;
+}
+
+.ins .theadd {
+	background-color: #000;
+	color: #fff;
+}
+.ins .jobmatchYout .pull-right > .dropdown-menu {
+    right: 0;
+    left: auto;
+	border-radius: 0;
+    width: 100%;
+	min-width: 100%;
+   
+}
+.ins .mrcaret {
+	margin-left: 0;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+/* index page css ends */
+.ins .jobDetails div{
+	padding: 0px;
+}
+.ins .jobDetails div h6{
+	margin:0px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+.ins .jobDetails{
+	border: 1px solid #fff;
+    padding: 30px 30px;
+    margin-top: 50px;
+}
+.ins .jobDetails .textBold{
+	font-weight: bold;
+}
+.ins .jobPost,.jobContainer,.insProfile {
+	background-color: #006eb9;
+}
+.ins .jobName{
+	color: #ffffff;	
+}
+.ins .mDepartment{
+	background-color: #fff;
+    padding-top: 20px;
+	margin-bottom: 50px;
+    padding-bottom: 14px;
+}
+.ins .mDepartment h6 {
+	margin:0px;
+	margin-bottom: 10px;
+}
+.ins .mDepartment div :nth-child(2n*1) {font-weight:bold;}
+.ins .mDepartment div h6:nth-child(even) {font-weight:200;}
+.ins .twoArrows{
+	position: absolute;
+    left: 50%;
+    margin-top: -75px;
+    width: 150px;
+    margin-left: -60px;
+    height: 150px;
+    top: 50%;
+}
+.ins .jobHeader div {
+	padding: 0px;
+}
+.ins .jobCapabulites {
+	padding-top: 45px;
+}
+.ins .jobCapabulites .jobImg{
+	position: relative;
+    left: 50%;
+    width: 64px;
+    margin-left: -32px;
+}
+.ins .jobCapabulites .jobHeader{
+	text-align: center;
+	 padding-bottom: 25px;
+}
+.ins .jobCapabulites .jobHeader h4{
+	text-transform: uppercase;
+    padding-bottom: 15px;
+	margin-bottom: 15px;
+    border-bottom: 4px solid #5e0058;
+}
+.ins .joNames{
+	margin: 0;
+	color: #707070;
+    float: left;
+}
+.ins .tickCorrect{
+	float: right;
+}
+.ins .nameMain{
+	margin-bottom: 15px;
+}
+.ins .jobHeader div.capabulityDiv {
+	padding-left: 15px;
+}
+.ins .jobHeader .capabulityDivName{
+	margin-bottom: 5px;
+	text-align: left;
+}
+.ins .marrow{
+	display: none;
+}
+.ins .accepted{
+	float: right;
+	color: #707070;
+	margin:0;
+}
+.ins .mainCapapuity{
+	border-bottom: 1px solid #d7d7d7;
+}
+.ins .borderMain{
+	margin-top: 15px;
+}
+.ins .acceptColor{
+	color: #5e0058;
+	font-weight: bold;
+}
+.ins .insProfileSmall div {
+	padding:0px;
+}
+.ins .mainCapapuity:last-child {
+    border-bottom: 0px solid #d7d7d7;
+}
+.ins .insProfile div.insProfileMain {
+	padding-top: 75px;
+    padding-bottom: 62px;
+}
+.ins .inspHeader{
+	color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.ins .insaccHeader{
+	font-weight: bold;
+    font-size: 14px;
+}
+.ins .insaccsubHeader{
+	text-transform: uppercase;
+	font-size: 14px;
+    margin-bottom: 18px;
+}
+.ins .innerprofileSecond .insinnerProfile{
+	background-color: #fff;
+}
+.ins .insRati{
+	margin-bottom:0px;
+}
+.ins .relavantSkills{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.ins .paddingNone{
+	padding: 0px;
+}
+.ins .paddingRight{
+	padding-right: 0px;
+}
+
+.ins .timeIn{
+	border: 1px solid #ffffff;
+    padding: 10px 7px;
+}
+.ins .otherSkills{
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 0px; 
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.ins .years {
+	margin-bottom: 0;
+}
+.ins .tablet img{
+		display: block;
+	}
+	.ins .tablet .perHead{
+		display: none;
+	}
+.ins .insProfileSmall div.insinnerProfile{
+				background-color: #fff;
+				    height: 312px;
+				padding: 20px 0 12px 15px;
+			}
+/* Calender css starts */
+.spacing {
+    clear: both;
+    line-height: 10px;
+}
+.member-details {
+    border: 1px solid #eee;
+    padding: 20px;
+}
+.select-time {
+    padding: 40px;
+    text-align: center;
+    background-color: #340030;
+    color: #ddd;
+}
+.select-time a {
+    color: #ddd;
+    text-decoration: underline;
+}
+.select-time .cal {
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #eee;
+    margin: 4px;
+    width: 15%;
+}
+.select-time .datepic {
+    float: left;
+    width: 35%;
+}
+.select-time .timepic {
+    float: left;
+    width: 65%;
+}
+@media (max-width: 414px) {
+    .select-time .datepic {
+        float: left;
+        width: 100%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 100%;
+    }
+    .select-time .cal {
+        width: 29%;
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 415px) and (max-width: 767px) {
+    .select-time .datepic {
+        float: left;
+        width: 48%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 52%;
+    }
+    .select-time .cal {
+        width: 29%;
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .select-time .datepic {
+        float: left;
+        width: 43%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 57%;
+    }
+    .select-time .cal {
+        width: 28%;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .select-time .datepic {
+        float: left;
+        width: 35%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 65%;
+    }
+    .select-time .cal {
+        width: 18%;
+    }
+}
+.select-time .cal span {
+    font-size: 12px;
+}
+.ins .datetimepicker table > tbody > tr > td:last-child{
+    border-right:0px;
+}
+.ins .datetimepicker table > tbody:last-child tr > td {
+    border-bottom: 0px solid #eeeeee;
+}
+.datetimepicker {
+    background: #006eb9;
+    color: #eee;
+    border-radius: 0px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .176);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .176);
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+}
+.datetimepicker+.datetimepicker {
+    margin-left: 15px;
+}
+.ins .datetimepicker table thead td {
+    border: 0 none;
+}
+.datetimepicker .paging {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 5px;
+}
+.datetimepicker .paging .month-name {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.datetimepicker .paging i {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 9px;
+    line-height: 24px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 5px;
+}
+.datetimepicker .paging i.prev {
+    left: 20px;
+    top: 15px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-style: none;
+}
+.datetimepicker .paging i.next {
+    right: 20px;
+    top: 15px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-style: none;
+}
+.datetimepicker table {
+    font-weight: 400;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.datetimepicker table td {
+    text-align: center;
+    border: 1px solid #eee;
+	color: #fff;
+    padding: 5px;
+}
+.ins .seniorCredit{
+	text-decoration: underline;
+}
+.ins .monthDate{
+	margin-bottom: 40px;
+}
+.ins .confirmInterview{
+	padding: 20px 40px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	border-radius: 0px;
+	background-color: #006eb9;
+}
+.ins .yourIntervied{
+	margin-top: 27px;
+	margin-bottom: 23px;
+}
+.ins .sTime{
+	margin-bottom: 0;
+    margin-top: 20px;
+}
+.ins .datetimepicker .paging .month-name {
+    color: #fff;
+}
+.datetimepicker table td.near-month {
+    color: #2f88c4;
+}
+.datetimepicker table td.cur-date.cur-month {
+    background: #D9EDF7;
+}
+.datetimepicker table td.unavailable {
+    background: #C55762;
+    color: #fff;
+}
+.datetimepicker table thead {
+    font-weight: 700;
+}
+.datetimepicker table thead td {
+    border: none;
+    border-bottom: 2px solid #eee;
+}
+.datetimepicker table tbody td:hover {
+    background: #eee;
+    cursor: pointer;
+}
+.datetimepicker table tbody td:hover.unavailable {
+    background: #C55762;
+    cursor: not-allowed;
+}
+.ins .scheduleInterview{
+	color: #340030;
+	margin-top: 52px;
+}
+.ins .insbg{
+	background-color: #dedede;
+}
+.ins .insContainer {
+	background-color: #fff;
+}
+.ins .interviewingTime{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.ins .selectTime{
+	margin-top: 37px;
+	margin-bottom: 20px;
+}
+.ins .mainDiv{
+	color:#404040;
+}
+.ins .roleInterviewing{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+/* Calender css Ends */
+@media (max-width: 991px) {
+	.ins .jobContainer{
+		padding:0px;
+	}
+	.ins .twoArrows {
+		height: 50px;
+		left: 50%;
+		margin-left: -85px;
+		margin-top: -81px;
+		position: absolute;
+		top: 50%;
+		width: 110px;
+	}
+	.ins .tablet img{
+		display: none;
+	}
+	.ins .tablet .perHead{
+		display: block;
+		float:left;
+		color: #5e0058;
+		margin-top:0;
+	}
+	.ins .jobHeader div.capabulityDiv {
+		padding-left: 0px;
+	}
+	.ins .mainCapapuity:last-child {
+		border-bottom: 1px solid #d7d7d7;
+}
+	.ins .jobCapabulites .jobHeader {
+		padding-bottom: 53px;
+		text-align: center;
+	}
+	.ins .jobCapabulites .jobHeader.jobtablet {
+		padding-bottom: 35px;
+		text-align: center;
+	}
+	.ins .insProfileSmall div.insinnerProfile {
+		background-color: #ffffff;
+		height: 410px;
+		padding: 3px 0 12px 15px;
+	}
+	.ins .insProfile div.insProfileMain {
+		padding: 40px 0;
+	}
+	.ins .jobCapabulites {
+		padding-top: 45px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.ins .jobPost,.second_section {padding: 0px;}
+	.ins .darrow{
+		display: block;
+	}
+	.ins .marrow{
+		display: none;
+	}
+	
+
+}
+@media (max-width: 767px) {
+	.ins .jobDetails {
+		border: 1px solid #ffffff;
+		margin-top: 50px;
+		padding: 12px;
+	}
+	.ins .darrow{
+		display: none;
+	}
+	.ins .marrow{
+		display: block;
+	}
+	.ins .twoArrows {
+		height: auto;
+		left: 50%;
+		margin-left: -35px;
+		 margin-top: 50px;
+		position: absolute;
+		top: 50%;
+		width: 70px;
+	}
+	.ins .insProfileSmall div.insinnerProfile {
+		background-color: #ffffff;
+		height: auto;
+		padding: 3px 0 12px 15px;
+	}
+	.ins .jobCapabulites {
+		padding-top: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ins .mDepartment {
+		background-color: #ffffff;
+		margin-bottom: 22px;
+		padding-bottom: 14px;
+		padding-top: 20px;
+	}
+	.ins .mDepartment div, .ins .jobCapabulites div {
+		padding: 0px;
+	}
+	.ins .jobDetails {
+		border: 1px solid #ffffff;
+		margin-top: 30px;
+		padding: 12px;
+	}
+	.ins .jobCapabulites .jobImg {
+		left: 95%;
+		margin-left: -32px;
+		position: relative;
+		right: 0;
+		top: 34px;
+		width: 37px;
+	}
+	.ins .mPost{
+		padding: 0px;
+	}
+	.ins .jobCapabulites .jobHeader h4 {
+		padding-bottom: 10px;
+		padding-left: 15px;	
+		 text-align: left;
+	}
+	.ins .jobCapabulites .jobHeader {
+		text-align: left;
+	}
+	.ins .accepted {
+		color: #707070;
+		float: left;
+		margin: 0;
+	}
+	.ins ..navbar-brand {
+		float: none;
+		font-size: 18px;
+		height: 50px;
+		line-height: 20px;
+		padding: 15px;
+	}
+	.ins .mbottom{
+		padding-bottom: 40px;
+	}
+}

@@ -1,0 +1,723 @@
+.ins {
+    font-family: 'Lato', sans-serif;
+    
+}
+.ins .head {
+    padding: 0px;
+}
+.ins .insNav{
+    background-color: #fff;
+    border-color: #fff;
+    min-height: 90px;
+    margin-bottom: 0;
+}
+.ins .jobDetails div{
+    /*padding: 0px;*/
+}
+.ins .jobDetails div h6{
+    margin:0px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.ins .jobDetails{
+    border: 1px solid #fff;
+    padding: 30px 30px;
+    margin-top: 50px;
+    min-height: 193px;
+}
+.ins .jobDetails .textBold{
+    font-weight: bold;
+}
+.ins .jobPost,.jobContainer,.insProfile {
+    background-color: #006eb9;
+}
+.ins .jobName{
+    color: #ffffff; 
+}
+.ins .select-time-marg{
+    margin-left: 20px;
+    margin-top: 11px;
+    width: 142px;
+}
+.ins .mDepartment{
+    background-color: #fff;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 14px;
+}
+.ins .mDepartment h6 {
+    margin:0px;
+    margin-bottom: 10px;
+}
+.ins .mDepartment div :nth-child(2n*1) {font-weight:bold;}
+.ins .mDepartment div h6:nth-child(even) {font-weight:200;}
+.ins .twoArrows{
+    position: absolute;
+    left: 50%;
+    margin-top: -75px;
+    width: 150px;
+    margin-left: -60px;
+    height: 150px;
+    top: 50%;
+}
+.ins .jobHeader div {
+    padding: 0px;
+}
+.ins .jobCapabulites {
+    padding-top: 45px;
+}
+.ins .jobCapabulites .jobImg{
+    position: relative;
+    left: 50%;
+    width: 64px;
+    margin-left: -32px;
+}
+.ins .jobCapabulites .jobHeader{
+    text-align: center;
+     padding-bottom: 25px;
+}
+.ins .jobCapabulites .jobHeader h4{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #5e0058;
+}
+.ins .joNames{
+    margin: 0;
+    color: #707070;
+    float: left;
+}
+.ins .tickCorrect{
+    float: right;
+}
+.ins .nameMain{
+    margin-bottom: 15px;
+}
+.ins .jobHeader div.capabulityDiv {
+    padding-left: 15px;
+}
+.ins .jobHeader .capabulityDivName{
+    margin-bottom: 5px;
+    text-align: left;
+}
+.ins .marrow{
+    display: none;
+}
+.ins .accepted{
+    float: right;
+    color: #707070;
+    margin:0px;
+}
+.ins .accepted1 {
+    float: right;
+    color: #580b46;
+    margin:0px;
+}
+.ins .acceptedbold {
+    float: left;
+    color: #580b46;
+    margin:0px;
+}
+
+.ins .mainCapapuity {
+    border-bottom: 1px solid #d7d7d7;
+    margin-top: 10px;
+}
+.ins .borderMain{
+    margin-top: 15px;
+}
+.ins .acceptColor{
+    color: #5e0058;
+    font-weight: bold;
+}
+.ins .insProfileSmall div {
+    padding:0px;
+}
+.ins .mainCapapuity:last-child {
+    border-bottom: 0px solid #d7d7d7;
+}
+.ins .insProfile div.insProfileMain {
+    padding-top: 75px;
+    padding-bottom: 62px;
+}
+.ins .inspHeader{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.ins .insaccHeader{
+    font-weight: bold;
+    font-size: 14px;
+}
+.ins .insaccsubHeader{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.ins .innerprofileSecond .insinnerProfile{
+    background-color: #fff;
+}
+.ins .insRati{
+    margin-bottom:0px;
+}
+.ins .relavantSkills{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.ins .paddingNone {
+    padding: 0px;
+    padding-top: 3px;
+}
+.ins .paddingRight{
+    padding-right: 0px;
+}
+.ins .paddingRightside{
+    padding-right: 0px;
+}
+.ins .timeIn {
+    border: 1px solid #ffffff;
+    padding: 9px 7px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.ins .otherSkills{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0px; 
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.ins .years {
+    margin-bottom: 0;
+}
+.ins .tablet img{
+        display: block;
+    }
+    .ins .tablet .perHead{
+        display: none;
+    }
+.ins .insProfileSmall div.insinnerProfile{
+                background-color: #fff;
+                padding: 20px 0 12px 15px;
+                 height: 100%;
+            }
+.ins input[type="checkbox"] {
+    /* margin: 4px 0 0; */
+    margin-top: 10px;
+    margin-right: 12px !important;
+    line-height: normal;
+}
+.ins label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-right: 48px !important;
+}
+/* Calender css starts */
+.spacing {
+    clear: both;
+    line-height: 10px;
+}
+.member-details {
+    border: 1px solid #eee;
+    padding: 20px;
+}
+.select-time {
+   padding: 40px 0 40px 18px;
+    text-align: center;
+    background-color: #340030;
+    color: #ddd;
+}
+.select-time a {
+    color: #ddd;
+    text-decoration: underline;
+}
+.select-time .cal {
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #eee;
+    margin: 4px;
+    width: 15%;
+}
+.select-time .datepic {
+    float: left;
+    width: 35%;
+}
+.select-time .timepic {
+    float: left;
+    width: 65%;
+}
+.ins .ibox{
+    width: 12px;
+    height: 12px;
+    background-color:#C55762;
+    margin-right: 10px;
+    display: -webkit-inline-box;
+}
+.ins .ibox1{
+    width: 12px;
+    height: 12px;
+    background-color:#006eb9;
+    margin-right: 10px;
+    display: -webkit-inline-box;
+}
+@media (max-width: 414px) {
+    .select-time .datepic {
+        float: left;
+        width: 100%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 100%;
+    }
+    .select-time .cal {
+        width: 29%;
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 415px) and (max-width: 767px) {
+    .select-time .datepic {
+        float: left;
+        width: 48%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 52%;
+    }
+    .select-time .cal {
+        width: 29%;
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .select-time .datepic {
+        float: left;
+        width: 43%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 57%;
+    }
+    .select-time .cal {
+        width: 28%;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .select-time .datepic {
+        float: left;
+        width: 35%;
+    }
+    .select-time .timepic {
+        float: left;
+        width: 65%;
+    }
+    .select-time .cal {
+        width: 18%;
+    }
+}
+.select-time .cal span {
+    font-size: 12px;
+}
+.ins .datetimepicker table > tbody > tr > td:last-child{
+    border-right:0px;
+}
+.ins .datetimepicker table > tbody:last-child tr > td {
+    border-bottom: 0px solid #eeeeee;
+}
+.datetimepicker {
+    background: #006eb9;
+    color: #eee;
+    border-radius: 0px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .176);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .176);
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+}
+.datetimepicker+.datetimepicker {
+    margin-left: 15px;
+}
+.ins .datetimepicker table thead td {
+    border: 0 none;
+}
+.datetimepicker .paging {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    padding: 5px;
+}
+.datetimepicker .paging .month-name {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.datetimepicker .paging i {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 9px;
+    line-height: 24px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 5px;
+}
+.datetimepicker .paging i.prev {
+    left: 20px;
+    top: 15px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-style: none;
+}
+.datetimepicker .paging i.next {
+    right: 20px;
+    top: 15px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-style: none;
+}
+.datetimepicker table {
+    font-weight: 400;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.datetimepicker table td {
+    text-align: center;
+    border: 1px solid #eee;
+    color: #fff;
+    padding: 5px;
+}
+.ins .seniorCredit{
+    text-decoration: underline;
+}
+.ins .monthDate{
+    margin-bottom: 40px;
+}
+.ins .confirmInterview{
+    padding: 20px 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #006eb9;
+}
+.ins .yourIntervied{
+    margin-top: 27px;
+    margin-bottom: 23px;
+}
+.ins .sTime{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.ins .datetimepicker .paging .month-name {
+    color: #fff;
+}
+.datetimepicker table td.near-month {
+    color: #2f88c4;
+}
+.datetimepicker table td.cur-date.cur-month {
+    background: #D9EDF7;
+}
+.datetimepicker table td.unavailable_int {
+    background: green !important;
+    color: #fff;
+}
+
+.datetimepicker table td.unavailable {
+    background: #ff0000;
+    color: #fff;
+}
+
+
+.datetimepicker table thead {
+    font-weight: 700;
+}
+.datetimepicker table thead td {
+    border: none;
+    border-bottom: 2px solid #eee;
+}
+.datetimepicker table tbody td:hover {
+    background: #eee;
+    cursor: pointer;
+}
+.datetimepicker table tbody td:hover.unavailable_int {
+    background: green;
+    //cursor: not-allowed;
+}
+.datetimepicker table tbody td:hover.unavailable {
+   background: #ff0000;
+    color: #fff;
+   cursor: not-allowed;
+}
+
+.ins .scheduleInterview{
+    color: #340030;
+    margin-top: 52px;
+}
+.ins .insbg{
+    background-color: #dedede;
+}
+.ins .insContainer {
+    background-color: #fff;
+    margin-top: 25px;
+}
+.ins .interviewingTime{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.ins .selectTime{
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+.ins .mainDiv{
+    color:#404040;
+}
+.ins .roleInterviewing{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.ins .highlights h4{
+    background: #C55762;
+}
+.ins .ava-highlights {
+    background: #C55762;
+}
+.ins .meridian{
+    font-size: 13px;
+    color: grey;
+    font-weight: 800;
+}
+/* Calender css Ends */
+@media (max-width: 991px) {
+    .ins .jobContainer{
+        padding:0px;
+    }
+
+    .ins .twoArrows {
+        height: 50px;
+        left: 50%;
+        margin-left: -85px;
+        margin-top: -81px;
+        position: absolute;
+        top: 50%;
+        width: 110px;
+    }
+    .ins .tablet img{
+        display: none;
+    }
+    .ins .tablet .perHead{
+        display: block;
+        float:left;
+        color: #5e0058;
+        margin-top:0;
+    }
+    .ins .jobHeader div.capabulityDiv {
+        padding-left: 0px;
+    }
+    .ins .mainCapapuity:last-child {
+        border-bottom: 1px solid #d7d7d7;
+}
+    .ins .jobCapabulites .jobHeader {
+        padding-bottom: 53px;
+        text-align: center;
+    }
+    .ins .jobCapabulites .jobHeader.jobtablet {
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    .ins .insProfileSmall div.insinnerProfile {
+        background-color: #ffffff;
+        height: 410px;
+        padding: 3px 0 12px 15px;
+    }
+    .ins .insProfile div.insProfileMain {
+        padding: 40px 0;
+    }
+    .ins .jobCapabulites {
+        padding-top: 45px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .ins .jobPost,.second_section {padding: 0px;}
+    .ins .darrow{
+        display: block;
+    }
+    .ins .marrow{
+        display: none;
+    }
+    /* Calender responsiv css starts */
+    .ins .timeIn {
+        border: 1px solid #ffffff;
+        font-size: 14px;
+        margin-bottom: 0;
+        padding: 10px 7px;
+    }
+    .ins .member-details {
+        border: 1px solid #eeeeee;
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .ins .datetimepicker {  
+        max-width: 100%;
+    }
+    .ins .select-time {
+        background-color: #340030;
+        color: #dddddd;
+        padding: 40px 40px 40px 15px;
+        text-align: center;
+    }
+    /* Calender responsiv css Ends */
+
+}
+@media (max-width: 767px) {
+    .ins .jobDetails {
+        border: 1px solid #ffffff;
+        margin-top: 50px;
+        padding: 12px;
+    }
+    .ins .darrow{
+        display: none;
+    }
+   .ins .timeIn {
+        border: 1px solid #ffffff;
+        font-size: 15px;
+        margin-bottom: 0;
+        padding: 10px 7px;
+    }
+    .ins .marrow{
+        display: block;
+    }
+    .ins .twoArrows {
+        height: auto;
+        left: 50%;
+        margin-left: -35px;
+         margin-top: 50px;
+        position: absolute;
+        top: 50%;
+        width: 70px;
+    }
+    .ins .insProfileSmall div.insinnerProfile {
+        background-color: #ffffff;
+        height: auto;
+        padding: 3px 0 12px 15px;
+    }
+    .ins .jobCapabulites {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ins .mDepartment {
+        background-color: #ffffff;
+        margin-bottom: 22px;
+        padding-bottom: 14px;
+        padding-top: 20px;
+    }
+    .ins .mDepartment div, .ins .jobCapabulites div {
+        padding: 0px;
+    }
+    .ins .jobDetails {
+        border: 1px solid #ffffff;
+        margin-top: 30px;
+        padding: 12px;
+    }
+    .ins .jobCapabulites .jobImg {
+        left: 95%;
+        margin-left: -32px;
+        position: relative;
+        right: 0;
+        top: 34px;
+        width: 37px;
+    }
+    .ins .mPost{
+        padding: 0px;
+    }
+    .ins .jobCapabulites .jobHeader h4 {
+        padding-bottom: 10px;
+        padding-left: 15px; 
+         text-align: left;
+    }
+    .ins .jobCapabulites .jobHeader {
+        text-align: left;
+    }
+    .ins .accepted {
+        color: #707070;
+        float: left;
+        margin: 0;
+    }
+    .ins .accepted1 {
+    float: left;
+    color: #580b46;
+    margin:0px;
+    }
+    .ins ..navbar-brand {
+        float: none;
+        font-size: 18px;
+        height: 50px;
+        line-height: 20px;
+        padding: 15px;
+    }
+    .ins .mbottom{
+        padding-bottom: 40px;
+    }
+    /* calender responsive css */
+    .ins .select-time {
+        background-color: #340030;
+        color: #dddddd;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .ins .paddingRightside{
+        padding-right: 15px;
+    }
+    .ins .maincc{
+        margin-top: 70px;
+    }
+    
+    
+    /* calender responsive End css */
+}
+@media (max-width: 321px) {
+    .datetimepicker table thead td {
+        border: none;
+        border-bottom: 2px solid #eee;
+        min-width: 0px !important;
+    }
+   .ins .timeIn {
+        border: 1px solid #ffffff;
+        font-size: 15px;
+        margin-bottom: 0;
+        padding: 10px 7px;
+        margin-right: -3px;
+        padding-left: 8px;
+    }
+    .ins .iphone5{
+
+        display: inline-table;
+        max-width: 100%;
+        margin-bottom: 14px;
+        font-weight: bold;
+        position: static;
+        margin-right: 17px !important;
+        padding-left: 0px;
+    }
+}
+
+ textarea {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px 10px 10px 18px;
+    width: 100%;
+  }

@@ -1,0 +1,80 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "zizaco/entrust": "^1.7",
+        "maatwebsite/excel": "~2.1.0",
+        "laravelcollective/bus": "^5.2",
+        "phpoffice/phpexcel": "^1.8",
+        "smalot/pdfparser": "*",
+        "chumper/zipper": "0.6.x",
+        "aws/aws-sdk-php-laravel": "~3.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "gufy/pdftohtml-php":"~2",
+        "tymon/jwt-auth": "0.5.*",
+        "xethron/migrations-generator": "^2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+     "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "zizaco/entrust",
+                "version": "1.2.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zizaco/entrust.git",
+                    "reference": "ins_01"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Zizaco\\Entrust\\": "src/Entrust/"
+                    }
+                }
+            }
+        }
+    ],
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
